@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.child-card{
+    min-width:250px;
+    width: 30%;
+    text-align: center;
+
+    .img-wrap{
+        height: 150px;
+    }
+
+    img{
+        max-width:150px;
+    }
+
+    .title{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+}
